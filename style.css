@@ -1,1 +1,24 @@
+/* Tiếp tục dòng CSS của bạn */
 
+/* Đưa tất cả văn bản về cùng một cỡ chữ bé và độ dày đồng đều */
+*, 
+.markup__75297, 
+.messageContent__211d1, 
+.name__91a9d, 
+.h1, .h2, .h3, h1, h2, h3 {
+    font-size: 12px !important; /* Cỡ chữ bé */
+    font-weight: 400 !important; /* Độ dày bình thường, không in đậm */
+    line-height: 1.4 !important; /* Giãn dòng vừa phải */
+    text-transform: none !important; /* Không tự động viết hoa */
+}
+
+/* Loại bỏ khoảng cách quá lớn giữa các đoạn văn bản */
+p, div {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+}
+
+/* Đảm bảo màu sắc văn bản dễ đọc trên nền tối */
+.text-normal, .text-muted {
+    color: var(--text-normal) !important;
+}

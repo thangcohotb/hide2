@@ -1,24 +1,14 @@
-/* Tiếp tục dòng CSS của bạn */
-
-/* Đưa tất cả văn bản về cùng một cỡ chữ bé và độ dày đồng đều */
-*, 
-.markup__75297, 
-.messageContent__211d1, 
-.name__91a9d, 
-.h1, .h2, .h3, h1, h2, h3 {
-    font-size: 12px !important; /* Cỡ chữ bé */
-    font-weight: 400 !important; /* Độ dày bình thường, không in đậm */
-    line-height: 1.4 !important; /* Giãn dòng vừa phải */
-    text-transform: none !important; /* Không tự động viết hoa */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
-/* Loại bỏ khoảng cách quá lớn giữa các đoạn văn bản */
-p, div {
-    margin-top: 2px !important;
-    margin-bottom: 2px !important;
-}
-
-/* Đảm bảo màu sắc văn bản dễ đọc trên nền tối */
-.text-normal, .text-muted {
-    color: var(--text-normal) !important;
+h1 {
+  color: #2c3e50;
+  border-bottom: 2px solid #2c3e50;
 }
